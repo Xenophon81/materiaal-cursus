@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.yellow {
+  background-color: pink;
+  background-image: url("../img/border.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: 120px;
+  padding-bottom: 150px;
+
+  padding-left: 50px;
+}
+
+.white {
+  background-image: url("../img/dot2.png");
+  background-repeat: repeat-y;
+  background-position: right;
+  background-size: 120px;
+  padding-right: 150px;
+
+  padding-left: 50px;
+}

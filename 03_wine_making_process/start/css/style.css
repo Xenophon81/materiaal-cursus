@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: blue;
+}
+
+nav {
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+section {
+  padding: 2rem 0;
+  color: white;
+  margin: 2rem 0;
+}
+
+.wine-making {
+  background-color: #b97eb6;
+}
+
+.wine-making h1 {
+  font-family: "Lobster", cursive;
+  font-size: 5vw;
+}
+
+.wine-making h2 {
+  letter-spacing: 1em;
+}
+
+.harvesting {
+  background-color: #9e4e9e;
+}
+
+section h2 {
+  letter-spacing: 1em;
+}
+
+section p {
+  color: white;
+  line-height: 1.2;
+}

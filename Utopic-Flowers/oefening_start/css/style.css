@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after { 
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body{
+	background-color: #d0d0d0;
+}
